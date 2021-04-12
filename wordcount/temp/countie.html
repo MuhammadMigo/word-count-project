@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<h1>CCCCCCCCCCCCCCCCCCCCCCOOOOOUBT</h1>-->
+<h1>YOUR PROJECT HAS {{zz}} WORDS</h1>
+<a href="{% url 'home2'%}">START AGAIN</a>
+<h1>{{ww}}</h1>
+
+<h1>
+{% for word, counttotal in x %}
+
+{{ word }} - {{ counttotal }}
+<br />
+
+
+
+{% endfor %}
+
+</h1>
+</body>
+</html>
